@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+}
+
+body {
+  height: 100%;
+  display: grid;
+}
+.container {
+  /* thing to center */
+  margin: auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* Big box on left (2x), right section (1x) */
+  grid-template-rows: 1fr 1fr; /* Two equal rows */
+  gap: 10px;
+  height: 100vh;
+  padding: 20px;
+}
